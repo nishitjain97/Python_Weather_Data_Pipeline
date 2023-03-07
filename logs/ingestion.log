@@ -1,0 +1,19 @@
+2023-03-07 00:43:46 root - INFO - Started execution of ingest_data.py
+2023-03-07 00:43:46 root - INFO - Parsed command line arguments
+2023-03-07 00:43:46 root - INFO - Creating DB connection.
+2023-03-07 00:43:46 root - INFO - DB connected.
+2023-03-07 00:43:46 root - INFO - Reading crop data.
+2023-03-07 00:43:46 root - INFO - Reading US_corn_grain_yield.txt
+2023-03-07 00:43:46 root - INFO - All files read. Total records: 30
+2023-03-07 00:43:46 root - INFO - Crop data stored in DB.
+2023-03-07 00:43:46 root - INFO - Reading weather data.
+2023-03-07 00:43:46 root - INFO - Reading USC00257715.txt
+2023-03-07 00:43:46 root - INFO - Reading USC00113879.txt
+2023-03-07 00:43:46 root - INFO - Reading USC00127935.txt
+2023-03-07 00:43:46 root - INFO - Reading USC00112193.txt
+2023-03-07 00:43:46 root - INFO - Reading USC00250640.txt
+2023-03-07 00:43:46 root - INFO - All files read. Total records: 52021
+2023-03-07 00:43:46 root - INFO - Weather data stored in DB.
+2023-03-07 00:43:46 root - INFO - Computing statistics: Average maximum temperature, Average Minimum Temperature and Total Accumulated Precipitation.
+2023-03-07 00:43:46 root - INFO - Weather statistics stored.
+2023-03-07 00:43:46 root - INFO - Closing DB connection.
